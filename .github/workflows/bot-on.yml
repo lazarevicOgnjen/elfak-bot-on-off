@@ -24,7 +24,7 @@ jobs:
           USER="lazarevicOgnjen"  
 
           # Define the list of repositories to enable actions for
-          REPOSITORIES=("lp" "bp" "dmat" "oop")  # Add your repositories here
+          REPOSITORIES=("lp" "bp" "dmat" "oop" "aor-1")  # Add your repositories here
 
           for REPO in "${REPOSITORIES[@]}"; do
             echo "Enabling actions for repository: $REPO"
