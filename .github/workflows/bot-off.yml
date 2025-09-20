@@ -24,7 +24,7 @@ jobs:
           USER="lazarevicOgnjen" 
 
           # Define the list of repositories to disable actions for
-          REPOSITORIES=("lp" "bp" "dmat" "oop" "aor-1" "sp" "pj" "oopj")  # Add your repositories here
+          REPOSITORIES=("lp" "bp" "oop" "aor-1" "sp" "pj" "oopj")  # Add your repositories here
 
           for REPO in "${REPOSITORIES[@]}"; do
             echo "Disabling actions for repository: $REPO"
