@@ -1,7 +1,8 @@
 <br><br>
 
 > [!IMPORTANT]
-> Personal open-source utility that shows how to toggle GitHub bots on/off via the GitHub API.
+> Personal open-source repo that uses the GitHub API and a manual workflow trigger to start/stop the Discord bots living in my other repository.
+(Step-by-step PAT setup is right below.)
 
 <br><br>
 
